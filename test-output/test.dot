@@ -1,0 +1,16 @@
+// RBTree
+digraph G {
+	// Red
+	subgraph {
+		node [color=red style=filled]
+			17 [label=17]
+			41 [label=41]
+	}
+	// Black
+	subgraph {
+		node [color=black fontcolor=white style=filled]
+			26 [label=26]
+	}
+		26 -> 17
+		26 -> 41
+}
